@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/game_name"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/login_text"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="@string/registration"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/full_name"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:autofillHints=""
+        android:background="@drawable/registration_text"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:autofillHints=""
+        android:inputType="text"
+        android:background="@drawable/registration_text"
+        tools:ignore="TextFields"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:hint="@string/password"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:autofillHints=""
+        android:background="@drawable/registration_text"
+        android:inputType="textPassword"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/city"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:autofillHints=""
+        android:inputType="text"
+        android:background="@drawable/registration_text"
+        tools:ignore="TextFields" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
+

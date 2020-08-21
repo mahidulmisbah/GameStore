@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameOptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/game_name" >
+
+    <Button
+        android:id="@+id/card_finding"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_gravity="center"
+        android:text="@string/card_finding"
+        android:textSize="25sp"
+        android:background="@drawable/textview"
+        android:textColor="#1595E0"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/dart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dart"
+        android:background="@drawable/textview"
+        android:textSize="25sp"
+        android:textColor="#1595E0"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/dx_ball"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dx_ball"
+        android:textSize="25sp"
+        android:background="@drawable/textview"
+        android:textColor="#1595E0"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:id="@+id/snake"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/snake"
+        android:textSize="25sp"
+        android:background="@drawable/textview"
+        android:textColor="#1595E0"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:id="@+id/caram"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/caram"
+        android:textSize="25sp"
+        android:background="@drawable/textview"
+        android:textColor="#1595E0"
+        android:padding="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

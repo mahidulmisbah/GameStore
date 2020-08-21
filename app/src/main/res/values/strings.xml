@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Game Store</string>
+    <string name="welcome">Welcome to Game Zone</string>
+    <string name="msg">Please login First</string>
+    <string name="email">Insert Your Gmail</string>
+
+    <string name="forget">Forget Password? Click here</string>
+    <string name="password">Insert Your Password</string>
+    <string name="login">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="full_name">Full Name</string>
+    <string name="registration">Registration Form</string>
+    <string name="location">Location</string>
+    <string name="submit">Submit</string>
+    <string name="city">City</string>
+    <string name="exit">Do you want to exit</string>
+    <string name="hate">I Hate you</string>
+    <string name="love">I love you</string>
+    <string name="neutral">I am Nutral</string>
+    <string name="try_again">Try Again Please</string>
+    <string name="start">Start</string>
+    <string name="retry">Try Again</string>
+    <string name="find_card">Find Your Card</string>
+    <string name="done">Done</string>
+    <string name="select">Select any one from this four cards</string>
+    <string name="choice">Nothing is selected till now</string>
+    <string name="score">Current Score: 0</string>
+    <string name="overall_score">Winning Rate: 0%</string>
+    <string name="current_game">Now you Playing </string>
+    <string name="high_score">game Best Score: 0</string>
+    <string name="player_name">Player Name: </string>
+    <string name="dart">Dart</string>
+    <string name="dx_ball">DX Ball</string>
+    <string name="snake">Snake</string>
+    <string name="caram">Caram</string>
+    <string name="card_finding">Card Finding</string>
+    <string name="game_count">Game Count: 0</string>
+    <string name="personal_best">Personal Best:</string>
+</resources>
